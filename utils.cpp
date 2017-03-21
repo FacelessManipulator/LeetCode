@@ -1,4 +1,8 @@
 #include <iostream>
+#include <array>
+#include <map>
+#include <vector>
+
 using namespace std;
 
 //打印向量
