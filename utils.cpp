@@ -20,3 +20,11 @@ void print(array<T,n> vec){
   //刷新缓冲区
   cout << endl;
 }
+
+//打印map
+template <class T, class K>
+void print(map<T,K> m){
+  for(auto& iter:m){
+    cout << iter.first << " : " << iter.second << endl;
+  }
+}
